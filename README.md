@@ -1,3 +1,8 @@
+## test urL: 
+```
+https://code-movie-api.netlify.app/
+```
+
 # movie-app
 
 ## Project setup
@@ -22,3 +27,8 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### TODO
+```
+Wishlist functionality
+```
