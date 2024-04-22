@@ -128,7 +128,6 @@ export default {
 </script>
 
 <style>
-/* Base styles for the entire app */
 .movie-app {
   max-width: 1200px;
   margin: 0 auto;
@@ -223,7 +222,6 @@ li:hover {
     margin: 20% auto;
   }
 }
-
 
 .close {
   float: right;
