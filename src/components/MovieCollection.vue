@@ -201,10 +201,29 @@ li:hover {
 .modal-content {
   background: white;
   padding: 20px;
-  border-radius: 5px;
-  max-width: 500px;
-  width: 90%;
+  border-radius: 10px; 
+  width: 90%; 
+  max-width: 500px; 
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease-in-out;
 }
+
+@media (max-width: 768px) {
+  .modal-content {
+    width: 85%; 
+    margin: 10% auto; 
+    transform: scale(0.7);
+  }
+}
+
+@media (max-width: 480px) {
+  .modal-content {
+    width: 95%; 
+    padding: 15px; 
+    margin: 20% auto;
+  }
+}
+
 
 .close {
   float: right;
@@ -222,11 +241,6 @@ li:hover {
 .m-2{
   margin: 0 12px;
 }
-
-strong {
-  display: flex;
-}
-
 
 .genre-tag {
   cursor: pointer;
